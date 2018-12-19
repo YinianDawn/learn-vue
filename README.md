@@ -10,4 +10,8 @@ vue init webpack vue_demo
 cd vue_demo
 npm install
 npm run dev
+
+npm run build
+npm install -g serve
+serve dist
 ```
